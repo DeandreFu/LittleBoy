@@ -1,0 +1,60 @@
+{
+  "name": "little-boy",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "prepare": "husky install",
+    "start": "node ./script/dev",
+    "release": "node ./script/release",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fujia-cli/electron-vite-template.git"
+  },
+  "keywords": [
+    "electron",
+    "vite"
+  ],
+  "author": {
+    "name": "",
+    "email": ""
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "lint-staged": {
+    "*.{js,vue}": "eslint --cache",
+    "*.{css,scss,sass,html,vue}": "stylelint",
+    "*.**": "prettier --check --ignore-unknown"
+  },
+  "dependencies": {
+    "jsstore": "^4.3.7"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "@vitejs/plugin-vue": "^2.0.1",
+    "@vue/compiler-sfc": "^3.2.27",
+    "electron": "13.6.6",
+    "electron-builder": "^22.14.5",
+    "husky": "^7.0.4",
+    "jest": "^27.4.7",
+    "lint-staged": "^12.1.2",
+    "prettier": "^2.5.1",
+    "stylelint": "^14.1.0",
+    "sass": "^1.49.0",
+    "sass-loader": "^12.4.0",
+    "spectron": "^15.0.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.7.13",
+    "vue": "^3.2.27"
+  }
+}
