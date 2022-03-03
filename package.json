@@ -1,7 +1,7 @@
 {
   "name": "little-boy",
   "version": "0.1.0",
-  "description": "",
+  "description": "Some interesting mini games build with typescript",
   "scripts": {
     "prepare": "husky install",
     "start": "node ./script/dev",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fujia-cli/electron-vite-template.git"
+    "url": "git+https://github.com/DeandreFu/LittleBoy"
   },
   "keywords": [
     "electron",
     "vite"
   ],
   "author": {
-    "name": "",
+    "name": "Deandre",
     "email": ""
   },
   "license": "MIT",
